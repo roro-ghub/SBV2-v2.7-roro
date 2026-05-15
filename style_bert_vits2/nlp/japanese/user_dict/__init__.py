@@ -77,6 +77,7 @@ def update_dict(
     user_dict_path: Path = user_dict_path,
     compiled_dict_path: Path = compiled_dict_path,
 ) -> None:
+    return  # 加這行
     """
     辞書の更新
     Parameters

@@ -75,6 +75,7 @@ def unset_user_dict() -> None:
 
 
 def initialize_worker(port: int = WORKER_PORT) -> None:
+    return  # 加這行
     import atexit
     import signal
     import socket
