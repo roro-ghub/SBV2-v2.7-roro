@@ -31,4 +31,5 @@ tensorboard
 torch==2.4.0
 torchaudio==2.4.0
 transformers==4.44.2
+tokenizers==0.19.1
 umap-learn
