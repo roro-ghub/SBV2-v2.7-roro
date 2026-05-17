@@ -68,6 +68,7 @@ with gr.Blocks(theme=GRADIO_THEME) as app:
 app.launch(
     server_name=args.host,
     server_port=args.port,
+    allowed_paths=["/workspace/save"],
     inbrowser=not args.no_autolaunch,
     share=args.share,
 )
