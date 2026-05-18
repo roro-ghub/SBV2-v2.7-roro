@@ -21,8 +21,6 @@ onnxsim-prebuilt
 
 protobuf==4.25.3
 
-pyannote.audio==3.1.1
-
 pyloudnorm
 pyopenjtalk-dict
 pypinyin
