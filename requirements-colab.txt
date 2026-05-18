@@ -4,7 +4,7 @@ cn2an
 g2p_en
 gradio>=4.32
 jieba
-librosa>=0.10.1          # ← 從 0.9.2 改這裡，移除 numba 硬依賴
+librosa>=0.10.1
 loguru
 nltk<=3.8.1
 num2words
@@ -14,13 +14,13 @@ onnxconverter-common
 onnxruntime
 onnxruntime-gpu
 onnxsim-prebuilt
-protobuf==4.25           # ← 補上版本鎖（和 requirements.txt 對齊）
+protobuf==4.25
 pyannote.audio>=3.1.0
 pyloudnorm
 pyopenjtalk-dict
 pypinyin
 pyworld-prebuilt
-tokenizers==0.19.1       # ← 補上，否則 transformers 可能拉到不相容版本
+tokenizers==0.19.1
 torch
 torchaudio
 torchvision
