@@ -19,8 +19,6 @@ onnxconverter-common==1.14.0
 onnxruntime-gpu==1.18.1
 onnxsim-prebuilt
 
-protobuf==4.25.3
-
 pyloudnorm
 pyopenjtalk-dict
 pypinyin
