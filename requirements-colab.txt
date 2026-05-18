@@ -17,7 +17,7 @@ numpy==1.26.4
 onnx==1.16.1
 onnxconverter-common==1.14.0
 onnxruntime-gpu==1.18.1
-onnxsim==0.4.36
+onnxsim-prebuilt
 
 pyloudnorm
 pyopenjtalk-dict
