@@ -1,0 +1,35 @@
+accelerate
+cmudict
+cn2an
+faster-whisper
+g2p_en
+GPUtil
+gradio>=4.32
+jieba
+librosa>=0.11.0
+loguru
+nltk<=3.8.1
+num2words
+numpy<2
+onnx
+onnxconverter-common
+onnxruntime
+onnxruntime-directml; sys_platform == 'win32'
+onnxruntime-gpu; sys_platform != 'darwin'
+onnxsim-prebuilt
+protobuf==4.25
+psutil
+punctuators
+pyannote.audio>=3.1.0
+pyloudnorm
+pyopenjtalk-dict
+pypinyin
+pyworld-prebuilt
+soxr
+stable_ts
+tensorboard
+torch==2.4.0
+torchaudio==2.4.0
+transformers==4.44.2
+tokenizers==0.19.1
+umap-learn
