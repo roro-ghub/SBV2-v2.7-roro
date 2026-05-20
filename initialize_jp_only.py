@@ -11,7 +11,7 @@ from style_bert_vits2.logging import logger
 
 def download_bert_models():
     # 只讀日文版的 json，不碰中文模型
-    with open("bert/bert_jp_only.json", encoding="utf-8") as fp:
+    with open("bert_jp_only.json", encoding="utf-8") as fp:
         models = json.load(fp)
     for k, v in models.items():
         local_path = Path("bert").joinpath(k)
