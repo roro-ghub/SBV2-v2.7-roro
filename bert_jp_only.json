@@ -1,10 +1,23 @@
 {
     "deberta-v2-large-japanese-char-wwm": {
         "repo_id": "ku-nlp/deberta-v2-large-japanese-char-wwm",
-        "files": ["pytorch_model.bin"]
+        "files": [
+            "pytorch_model.bin",
+            "special_tokens_map.json",
+            "tokenizer.json",
+            "tokenizer_config.json",
+            "vocab.txt"
+        ]
     },
     "deberta-v2-large-japanese-char-wwm-onnx": {
         "repo_id": "tsukumijima/deberta-v2-large-japanese-char-wwm-onnx",
-        "files": ["model_fp16.onnx"]
+        "files": [
+            "model_fp16.onnx",
+            "config.json",
+            "special_tokens_map.json",
+            "tokenizer.json",
+            "tokenizer_config.json",
+            "vocab.txt"
+        ]
     }
 }
